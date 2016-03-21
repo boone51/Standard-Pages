@@ -1,0 +1,445 @@
+
+
+
+<!DOCTYPE html>
+<!---->
+<html lang="en">
+<head><!--open header-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+
+<title>Post to Bucks County Courier Times Classifieds</title>
+
+<!-- Bootstrap core CSS -->
+<link id="mainCSS" href="BS3/css/bootstrap-flat.css" rel="stylesheet">
+<!-- Bootstrap theme -->
+<!--<link href="BS3/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet/less" type="text/css" href="BS3/css/theme-flat.less" />
+	<link rel="stylesheet/less" type="text/css" href="BS3/css/variables-flat.less" />-->
+<!-- Custom styles for this template -->
+<link href="allstyles.css" rel="stylesheet">
+<script src="jquery.js"></script>
+<script src="BS3/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<!--BEGIN GetPackageInformation code-->
+    
+<!--END GetPackageInformation code-->
+
+<!--BEGIN login.jsp code-->
+
+<!--END login.jsp code-->
+    <!--BEGIN SetAdType code-->
+
+<!--END SetAdType code-->
+    <!--BEGIN SetPackage code-->
+
+<!--END SetPackage code-->   
+<!--BEGIN SetmerchandiseAttributes code-->
+
+<!--END SetmerchandiseAttributes code-->
+<!--BEGIN EditAd code-->
+
+<!--END EditAd code-->
+<script>
+function changeCSS(selSheet) {
+    console.log('hit the function for the css');
+    $('#mainCSS').attr("href", selSheet);
+//.href="BS3/css/bootstrap-flat.css";
+}
+//BEGIN menuLeft hover code
+$(function() {
+  $('.menuLeft li').mouseover(function(){
+        console.log('rollover hit');
+        if ($('li ul li:hover').length) {
+            $('li ul li:hover').css('background','gray');
+        }else{
+            $('li:hover').css('background','gray');
+            $(this).children('a').css('color','white');
+        }
+    });
+    $('.menuLeft li').mouseout(function(){
+        $(this).css('background', 'transparent');
+        $(this).children('a').css('color','black');
+    });
+    //
+    $('.mgraphiclogotable img').each(function(){
+    $(this).next('input').andSelf().wrapAll('<div class="test"/>');
+});
+    //
+});
+
+//END menyLeft hover code
+    
+</script>
+<!--  Universal Styles -   Styles listed below should be needed on every page-->
+<style>
+    #cityStZip select {
+            width: 80%;
+        }
+
+    #top-nav.affix {
+     position: fixed;
+        top: 0;
+        <!-- width: 100% -->
+    }
+    #ordersCarousel {
+        height: 440px;
+    }
+
+    .scrollit {
+        float: left;
+        /*width: 71%*/
+    }
+    /*mgraphiclogotable*/
+    .adPreviews img { display: block; margin-left: auto; margin-right: auto; /*width: 70%;*/ }
+    .adPreviews { margin-left: auto; margin-right: auto; text-align: center;}
+    .customHeader {
+        height: 150px;
+        background: #e7e7e7;
+    }
+    .menuLeft {
+/*        margin-left: -15px;*/
+        background-color: #d7d7d7;
+    }
+
+    .menuLeft li {
+        /* border-top: 1px solid #d8d8d8; */
+        padding-left: 5px;
+    }
+
+    .menuLeft li a {
+        color: #3b3b3b;
+        text-decoration: none;
+    }
+
+    .menuLeft hr {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    textarea {
+        display: block;
+        width: 100%;
+    }
+    input[type="checkbox"] {
+        /*display:inline-block;*/
+        margin-left:10px;
+        /*width: 150px;*/
+    }
+    fieldset {
+        display:block;
+    }
+    /*.mattrlabeltext{
+        display:block;
+    }*/
+    .packagepatterndaypatterntable{
+        white-space: pre-line;
+    }
+    .packagepatterndaypatterntable input{
+        margin-top:10px;
+    }
+    .mgraphiclogotable img{
+       /* display:block;*/
+    }
+    .mgraphiclogotable input{
+       /* float:right;*/
+    }
+    input[name="spellButton"] {
+       /* padding: 0;
+        border: none;
+        line-height: 40px;
+        text-align: center;
+        background: none;*/
+    }
+    .fixAlt {
+/*        text-align: center;*/
+    }
+    .carousel-control.left, .carousel-control.right { background-image: none }
+</style>
+<!--END Universal styles-->
+
+</head>
+<body>
+<div class="container">
+    <div class="row" style="padding-bottom:30px;">
+    <!--    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">-->
+        <div class="col-md-12 col-lg-12">
+            <div class="customHeader">
+<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="WebBaseMain.do?NextURL=/jsp/login.jsp&urlaction=push"><img src="images/logo.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="defaultNavbar1">
+            <ul class="nav navbar-nav">
+                <li class="clickable"><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">Login<!--<span class="caret"></span>--></a></li>
+                <li class="clickable"><a href="WebBaseMain.do?cmd=NewCustomerLL">Create New Account</a></li>
+                <li class="clickable"><a href="#" data-toggle="modal" data-target=".xtraInfo" onclick="getXtraInfo('Deadlines')">Deadlines</a></li>
+                <li class="clickable"><a href="WebBaseMain.do?NextURL=/jsp/SetAdType.jsp">Start Over</a></li>
+                <!--                END showif tag for latelogin-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="tel:1-866-938-3010">Need help? Call us at 866-938-3010</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding:10px">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="col-md-6 text-left">
+                Your login and/or password are invalid.
+                <input type="hidden" name="ErrorURL" value="AccessDenied.jsp">
+                <br> Please Try again.
+                <form method="post" action="WebBaseMain.do" name="LoginUser">
+                    USER LOGIN &nbsp; Name:
+                    <input type=text name="userName" value="" size=15> Password:
+                    <input type=password name="userPassword" size=15>
+                    <input name="imageField" type="image" src="../../../images/navigation/login.gif" alt="Click To Log In" width="49" height="17" border="0">
+                    <input type="hidden" name="FormType" value="LoginUser"> Forget your password? Use our <a href="WebBaseMain.do?cmd=EmailPassword"> Password
+								Lookup </a>.
+                    <input type="hidden" name="FormType" value="LoginUser">
+                    <input type="hidden" name="FormButtonList" value="null">
+                    <input type="hidden" name="FormActionParamsList" value="null"> &nbsp; Create a <a href="WebBaseMain.do?cmd=NewCustomer">new
+								  account </a>
+                    <br>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script language="JavaScript">
+        if (document.forms[0].userName) {
+            document.forms[0].userName.focus();
+        }
+    </script>
+</div>
+    
+    </div> <!-- /container -->
+<div style="padding-top:20px">
+<!-- Padding for the footer -->
+    <!-- GeoTrust QuickSSL [tm] Smart  Icon tag. Do not edit. -->
+<center><SCRIPT LANGUAGE="JavaScript"  TYPE="text/javascript"  
+SRC="//smarticon.geotrust.com/si.js"></SCRIPT></center>
+<!-- end  GeoTrust Smart Icon tag -->
+
+<div class="footertext">For your benefit and our commitment to you as our customer, our classified ad specialists will be checking every ad before we allow them to run. Should your ad contain any uncertain word choices, our ad specialists will help you in choosing the "acceptable" wording. Thank you for understanding our position and earnest effort to comply with the regulations to which we all must adhere to.</div>
+</div>
+<!--BEGIN footer-->
+<div class="footer" >
+    <div class="footercopy">
+	  <div class="text-center" style="padding-top:10px">
+		<p class="text-muted">&copy; Copyright 2016, Bucks County Courier Times, Levittown, PA.</p>
+	  </div>
+    </div>
+</div>
+<!--END footer-->
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="BS3/js/bootstrap.min.js"></script>-->
+    <!-- <script src="../../assets/js/docs.min.js"></script>
+    IE10 viewport hack for Surface/desktop Windows 8 bug
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+	<script src="responsive-toolkit.js"></script>
+	<script src="main.js"></script>
+
+<!-- moved into body tag-->
+<script>
+    //if new account pages
+
+    //END if new account pgaes
+    //BEGIN login page
+
+    //END login page
+    //BEGIN doc ready function
+    $().ready(function () {
+        //
+        //$("td").css("background", "transparent");
+        //
+        //BEGIN Automatic forwarding
+        //If there is only one package, hide the body and automatically move to the next page.
+        if ($("table[name=PackageDetailDescriptionTable]").length == 1) {
+            $("body").hide();
+            console.log("found only one package");
+            $("input[name='PackageSelector']").trigger("click");
+        };
+        //
+        //END Automatic forwarding
+        //BEGIN wrap all form input with formhelper function for Bootstrap 3 automatic styling
+        $("input:not([type=image],[type=button],[type=submit],[type=hidden],[type=checkbox],[type=radio])").each(function () {
+            $(this).addClass("form-control");
+        });
+        $("select").each(function () {
+            $(this).addClass("form-control");
+        });
+        //
+        //
+        //if dynamic previews page
+        $(".mlayouttable table").attr('width', '250px');
+        $(".mlayouttable table").addClass('previewGrid');
+        //
+
+
+        //BEGIN function for button to upload photos
+        //
+        function uploadPhotos() {
+            document.editAd.action = "WebBaseMain.do?NextURL=/jsp/SetAdbaseImage.jsp";
+            document.editAd.submit();
+        }
+        //
+        //END function for button to upload photos
+        //BEGIN newaccount.jsp javascript
+
+        //END newaccount.jsp javascript
+        //
+        //signIn upodater JS below
+        //
+
+        var signInReturn = document.getElementsByName('lateLogin.xURL');
+        $(signInReturn).val('/jsp/ReviewOrder.jsp');
+        //
+        var logInReturn = document.getElementsByName('ErrorURL');
+        $(logInReturn).val('/jsp/ReviewOrder.jsp');
+        //
+
+        //
+        //Alerts override
+        var errorMSGtxt = "Your login and/or password are invalid. "
+        if (errorMSGtxt != "") {
+            $("#EpageError").show().text(errorMSGtxt);
+        };
+        //
+        $(".close").click(function () {
+            return verify()
+            $("#EpageAlert").alert();
+        });
+        //
+        window.alert = function (message) {
+            document.title = "message"
+            $("#EpageAlert").fadeIn();
+            $('#errorConent').text(message);
+            //
+
+            //
+            return false;
+        };
+        //more overrides
+    }); //END doc ready function
+    //
+    //
+    //
+    //BEGIN Misc JS
+    function getXtraInfo(retDiv) {
+        console.log('getrates called - ' + retDiv);
+        if (retDiv == 'profile') {
+            console.log('hitting profile request');
+            $("#genModal").text("Profile Information");
+            $("#xtraInfoResult").load("ViewProfileSummary.jsp");
+        } else {
+            $("#genModal").text(retDiv);
+            $("#xtraInfoResult").load("xtraInfo.jsp #" + retDiv + "");
+        }
+
+    }
+    //
+    //
+    /*function myPluginLoadEvent(func) {
+    		// assign any pre-defined functions on 'window.onload' to a variable
+    		var oldOnLoad = window.onload;
+    		// if there is not any function hooked to it
+    		if (typeof window.onload != 'function') {
+    			// you can hook your function with it
+    			window.onload = func
+    		} else {     // someone already hooked a function
+    			window.onload = function () {
+    				// call the function hooked already
+    				oldOnLoad();
+    				// call your awesome function
+    				console.log('awesome function loaded');
+    				func();
+    			}
+    		}
+    }
+
+    	// pass the function you want to call at 'window.onload', in the function defined above
+    myPluginLoadEvent(function(){
+    	// your awesome code to run on window.onload
+    	console.log('window loaded');
+
+    });*/
+    console.log("javascript is finished");
+    //END Misc JS
+</script>
+<!-- START OF SmartSource Data Collector TAG v10.3.7 -->
+<!-- Copyright (c) 2013 Webtrends Inc.  All rights reserved. -->
+<script>
+window.webtrendsAsyncInit=function(){
+    var dcs=new Webtrends.dcs().init({
+        dcsid:"dcsg8l3su9bv0h8iwrjkemk4s_5x5u",
+        domain:"statse.webtrendslive.com",
+        timezone:-5,
+        i18n:true,
+        adimpressions:true,
+        adsparam:"wt.ac",
+        offsite:true,
+        download:true,
+        downloadtypes:"xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip",
+        cookieexpires:0,
+        metanames:"keywords",
+        onsitedoms:"www.buckscountycouriertimes.com",
+        fpcdom:".buckscountycouriertimes.com",
+        plugins:{
+            hm:{src:"//s.webtrends.com/js/webtrends.hm.js"},
+            facebook:{src:"//s.webtrends.com/js/webtrends.fb.js"},
+            yt:{src:"//s.webtrends.com/js/webtrends.yt.js"},
+            limelightVideo:{src:"http://www.buckscountycouriertimes.com/content/tncms/live/global/resources/scripts/_site/limelight_webtrends.js",beaconRate:30},
+            authTrack:{src:"http://www.buckscountycouriertimes.com/content/tncms/live/global/resources/scripts/_site/authTrack_webtrends.js"}
+        }
+        }).track();
+};
+(function(){
+    var s=document.createElement("script"); s.async=true; s.src="http://www.buckscountycouriertimes.com/content/tncms/live/global/resources/scripts/_site/webtrends.min.js";    
+    var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+}());
+</script>
+<noscript><img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcsg8l3su9bv0h8iwrjkemk4s_5x5u/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.3.7&amp;dcssip=www.buckscountycouriertimes.com"/></noscript>
+<!-- END OF SmartSource Data Collector TAG v10.3.7 -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42630469-1', 'buckscountycouriertimes.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+	
+<script type="javascript" src="../../../scripts/FormUtils.js"></script>
+</html>

@@ -1,0 +1,181 @@
+/*-------- START -------- This CSS effects the dropdown menu's on the SetAdType.jsp page. -----------------*/
+
+#category li { 
+  margin-bottom:0px;
+  margin-top:0px;
+  margin-right:0px;
+  margin-left:20px;
+  list-style:none;  
+}
+#category ul { 
+  margin-bottom:0px;
+  margin-top:0px;
+  margin-right:0px;
+  margin-left:0px; 
+}
+#category a:link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight:bold;
+  color:#666666;
+  text-decoration: none;
+}
+#category a:visited{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color:#666666;
+  font-weight:bold;
+  text-decoration: none;
+}
+#category a:active{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color:#666666;
+  font-weight:bold;
+  text-decoration: none;
+}
+#category a:hover{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color:#666666;
+  font-weight:bold;
+	text-decoration: underline;
+}
+
+.catHead {
+  font-size: 16px;
+}
+
+/*-------- END -------- This CSS effects the dropdown menu's on the SetAdType.jsp page. -----------------*/
+/*-------- START -------- This CSS effects how all the ".jsp" pages display. -----------------*/
+
+.packagepatterndescriptionvalue{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color:#000000;
+}
+
+.packagepatterndescriptionlabel{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color:#000000;
+}
+
+.packagepatterndescriptiontable{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0px;
+  color:#FFFFFF;
+}
+
+.menuTable {
+  
+  border:solid;
+  border-color:#99CC00;
+  border-width:1px;
+}
+.menuHead {
+  background-color:#CCCCCC;
+  border-bottom:solid;
+  border-bottom-color:#99CC00;
+  border-bottom-width:1px;
+  color:#333333;
+  font-weight:bold;
+}
+.menuLinks:link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight:bold;
+  color:#666666;
+  text-decoration: none;
+}
+
+.menuLinks:visited{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight:bold;
+  color:#666666;
+  text-decoration: none;
+}
+.menuLinks:active{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight:bold;
+  color:#666666;
+  text-decoration: none;
+}
+.menuLinks:hover{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight:bold;
+  color:#666666;
+  text-decoration: none;
+}
+.contentTable {
+  
+  border:solid;
+  border-color:#990033;
+  border-width:1px;
+}
+td {
+  border:none;
+}
+.PageName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;  
+	/* change display to :none; to hide page names */
+	display:inline;
+}
+.errormsg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;  
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+.standard {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+}
+.standard12px {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+.mgroupheadercell {
+  background-color:#FFFFFF;
+  text-align: left;
+}
+.mgroupname {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-align: left;
+}
+.mmaintable {
+  background-color:#FFFFFF;
+  border:none;
+}
+.mattrlabeltext {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+}
+.mattrlabelcell {
+  background-color:#FFFFFF;
+  vertical-align:top;
+}
+
+/*-------- END -------- This CSS effects how all the ".jsp" pages display. -----------------*/

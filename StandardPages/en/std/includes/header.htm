@@ -1,0 +1,20 @@
+<table width="750" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="50"></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+	<webbase:showIf expression="isFakeCustomerLoggedIn">
+	  <strong>You are currently not logged in.</strong>
+	</webbase:showIf>
+	<webbase:showIf expression="!isFakeCustomerLoggedIn">
+	<webbase:showIf expression="isCustomerLoggedIn">
+	  <span class="heading">Welcome!</span><br />
+	  You are logged in as <strong><webbase:customerData dataType="Fname" editMode="0"/> <webbase:customerData dataType="Lname" editMode="0"/></strong>
+	</webbase:showIf>
+	</webbase:showIf>
+	<br />
+	<br />
+	</td>
+  </tr>
+</table>
